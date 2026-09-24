@@ -176,7 +176,7 @@ export default function LockPage() {
       style={{ justifyContent: 'center', alignItems: 'center', padding: '2rem 1.25rem' }}
     >
       <div style={{ maxWidth: 400, width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '2.5rem' }}>
-        <div style={{ width: '100%', maxWidth: 260, margin: '0 auto 1.75rem' }}>
+        <div role="region" aria-label="Network switcher" style={{ width: '100%', maxWidth: 260, margin: '0 auto 1.75rem' }}>
           <NetworkSwitcher />
         </div>
 
